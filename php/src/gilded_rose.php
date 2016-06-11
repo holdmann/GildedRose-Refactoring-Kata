@@ -50,7 +50,20 @@ class GildedRose {
                             $item->quality = 50;
                         break;
 
-                    default: break;
+                    default:
+                        $qualityDecreaseBy = $item->sellIn > 0 ? 1 : 2;
+
+                        $item->sellIn -= 1;
+
+                        if ($item->sellIn < 0)
+                            $qualityDecreaseBy = 2;
+
+                        $item->quality -= $qualityDecreaseBy;
+
+                        if ($item->quality < 0)
+                            $item->quality = 0;
+                        
+                        break;
                 }
                 // terminate method execution.
                 return;
