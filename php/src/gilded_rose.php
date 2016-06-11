@@ -10,6 +10,29 @@ class GildedRose {
 
     function updateQuality() {
         foreach ($this->items as $item) {
+            if (in_array($item->name, ['Aged Brie'])) {
+                switch ($item->name) {
+                    case 'Aged Brie':
+                        $qualityIncreaseBy = $item->sellIn > 0 ? 1 : 2;
+
+                        $item->sellIn -= 1;
+
+                        if ($item->sellIn < 0)
+                            $qualityIncreaseBy = 2;
+
+                        $item->quality += $qualityIncreaseBy;
+
+                        if ($item->quality > 50)
+                            $item->quality = 50;
+
+                        break;
+
+                    default: break;
+                }
+                // terminate method execution.
+                return;
+            }
+
             if ($item->name != 'Aged Brie' and $item->name != 'Backstage passes to a TAFKAL80ETC concert') {
                 if ($item->quality > 0) {
                     if ($item->name != 'Sulfuras, Hand of Ragnaros') {
