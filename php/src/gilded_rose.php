@@ -49,6 +49,18 @@ class GildedRose {
                         $item->quality = 50;
                     break;
 
+                case 'Conjured Mana Cake':
+                    $qualityDecreaseBy = 2;
+
+                    $item->sellIn -= 1;
+
+                    $item->quality -= $qualityDecreaseBy;
+
+                    if ($item->quality < 0)
+                        $item->quality = 0;
+
+                    break;
+
                 default:
                     $qualityDecreaseBy = $item->sellIn > 0 ? 1 : 2;
 
