@@ -67,6 +67,34 @@ class GildedRoseTest extends PHPUnit_Framework_TestCase {
     }
 
     /**
+     * Testing of Sulfuras, Hand of Ragnaros item.
+     */
+    function testRagnarosHandSulfaras()
+    {
+        $fixturesFilename = file_get_contents(__DIR__ . '/' . $this->fixturesFolder . '/ragnaros-hand-sulfaras.json');
+        $fixtures = json_decode($fixturesFilename);
+
+        foreach($fixtures as $id=>$fixture) {
+            $items = [
+                new Item("Sulfuras, Hand of Ragnaros", $fixture->properties->sellIn, $fixture->properties->quality)
+            ];
+            $gildedRose = new GildedRose($items);
+
+            for($i = 0; $i<count($fixture->items); $i++) {
+                $this->assertEquals(
+                    $fixture->items[$i]->sellIn,
+                    $items[0]->sellIn
+                );
+                $this->assertEquals(
+                    $fixture->items[$i]->quality,
+                    $items[0]->quality
+                );
+                $gildedRose->updateQuality();
+            }
+        }
+    }
+
+    /**
      * Testing of Backstage passes to a TAFKAL80ETC concert item.
      */
     function testTAFKAL80ETCConcertBackstagePasses()
