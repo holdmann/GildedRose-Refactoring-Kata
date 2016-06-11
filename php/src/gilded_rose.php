@@ -8,7 +8,7 @@ class GildedRose {
         $this->items = $items;
     }
 
-    function update_quality() {
+    function updateQuality() {
         foreach ($this->items as $item) {
             if ($item->name != 'Aged Brie' and $item->name != 'Backstage passes to a TAFKAL80ETC concert') {
                 if ($item->quality > 0) {
@@ -20,12 +20,12 @@ class GildedRose {
                 if ($item->quality < 50) {
                     $item->quality = $item->quality + 1;
                     if ($item->name == 'Backstage passes to a TAFKAL80ETC concert') {
-                        if ($item->sell_in < 11) {
+                        if ($item->sellIn < 11) {
                             if ($item->quality < 50) {
                                 $item->quality = $item->quality + 1;
                             }
                         }
-                        if ($item->sell_in < 6) {
+                        if ($item->sellIn < 6) {
                             if ($item->quality < 50) {
                                 $item->quality = $item->quality + 1;
                             }
@@ -35,10 +35,10 @@ class GildedRose {
             }
             
             if ($item->name != 'Sulfuras, Hand of Ragnaros') {
-                $item->sell_in = $item->sell_in - 1;
+                $item->sellIn = $item->sellIn - 1;
             }
             
-            if ($item->sell_in < 0) {
+            if ($item->sellIn < 0) {
                 if ($item->name != 'Aged Brie') {
                     if ($item->name != 'Backstage passes to a TAFKAL80ETC concert') {
                         if ($item->quality > 0) {
@@ -62,17 +62,17 @@ class GildedRose {
 class Item {
 
     public $name;
-    public $sell_in;
+    public $sellIn;
     public $quality;
 
-    function __construct($name, $sell_in, $quality) {
+    function __construct($name, $sellIn, $quality) {
         $this->name = $name;
-        $this->sell_in = $sell_in;
+        $this->sellIn = $sellIn;
         $this->quality = $quality;
     }
 
     public function __toString() {
-        return "{$this->name}, {$this->sell_in}, {$this->quality}";
+        return "{$this->name}, {$this->sellIn}, {$this->quality}";
     }
 
 }
