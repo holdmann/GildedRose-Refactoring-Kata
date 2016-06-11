@@ -121,4 +121,32 @@ class GildedRoseTest extends PHPUnit_Framework_TestCase {
             }
         }
     }
+
+    /**
+     * Testing of Conjured Mana Cake item.
+     */
+    function testConjuredManaCake()
+    {
+        $fixturesFilename = file_get_contents(__DIR__ . '/' . $this->fixturesFolder . '/conjured-mana-cake.json');
+        $fixtures = json_decode($fixturesFilename);
+
+        foreach($fixtures as $id=>$fixture) {
+            $items = [
+                new Item("Conjured Mana Cake", $fixture->properties->sellIn, $fixture->properties->quality)
+            ];
+            $gildedRose = new GildedRose($items);
+
+            for($i = 0; $i<count($fixture->items); $i++) {
+                $this->assertEquals(
+                    $fixture->items[$i]->sellIn,
+                    $items[0]->sellIn
+                );
+                $this->assertEquals(
+                    $fixture->items[$i]->quality,
+                    $items[0]->quality
+                );
+                $gildedRose->updateQuality();
+            }
+        }
+    }
 }
