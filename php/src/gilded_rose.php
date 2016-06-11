@@ -10,7 +10,7 @@ class GildedRose {
 
     function updateQuality() {
         foreach ($this->items as $item) {
-            if (in_array($item->name, ['Aged Brie'])) {
+            if (in_array($item->name, ['Aged Brie', 'Sulfuras, Hand of Ragnaros'])) {
                 switch ($item->name) {
                     case 'Aged Brie':
                         $qualityIncreaseBy = $item->sellIn > 0 ? 1 : 2;
@@ -25,6 +25,10 @@ class GildedRose {
                         if ($item->quality > 50)
                             $item->quality = 50;
 
+                        break;
+
+                    case 'Sulfuras, Hand of Ragnaros':
+                        // legendary item, do nothing.
                         break;
 
                     default: break;
