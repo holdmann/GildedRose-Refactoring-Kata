@@ -1,0 +1,1226 @@
+[
+  {
+    "properties": {
+      "sellIn": 15,
+      "quality": 20
+    },
+    "items": [
+      {
+        "sellIn": 15,
+        "quality": 20
+      },
+      {
+        "sellIn": 14,
+        "quality": 21
+      },
+      {
+        "sellIn": 13,
+        "quality": 22
+      },
+      {
+        "sellIn": 12,
+        "quality": 23
+      },
+      {
+        "sellIn": 11,
+        "quality": 24
+      },
+      {
+        "sellIn": 10,
+        "quality": 25
+      },
+      {
+        "sellIn": 9,
+        "quality": 27
+      },
+      {
+        "sellIn": 8,
+        "quality": 29
+      },
+      {
+        "sellIn": 7,
+        "quality": 31
+      },
+      {
+        "sellIn": 6,
+        "quality": 33
+      },
+      {
+        "sellIn": 5,
+        "quality": 35
+      },
+      {
+        "sellIn": 4,
+        "quality": 38
+      },
+      {
+        "sellIn": 3,
+        "quality": 41
+      },
+      {
+        "sellIn": 2,
+        "quality": 44
+      },
+      {
+        "sellIn": 1,
+        "quality": 47
+      },
+      {
+        "sellIn": 0,
+        "quality": 50
+      },
+      {
+        "sellIn": -1,
+        "quality": 0
+      },
+      {
+        "sellIn": -2,
+        "quality": 0
+      },
+      {
+        "sellIn": -3,
+        "quality": 0
+      },
+      {
+        "sellIn": -4,
+        "quality": 0
+      },
+      {
+        "sellIn": -5,
+        "quality": 0
+      },
+      {
+        "sellIn": -6,
+        "quality": 0
+      },
+      {
+        "sellIn": -7,
+        "quality": 0
+      },
+      {
+        "sellIn": -8,
+        "quality": 0
+      },
+      {
+        "sellIn": -9,
+        "quality": 0
+      },
+      {
+        "sellIn": -10,
+        "quality": 0
+      },
+      {
+        "sellIn": -11,
+        "quality": 0
+      },
+      {
+        "sellIn": -12,
+        "quality": 0
+      },
+      {
+        "sellIn": -13,
+        "quality": 0
+      },
+      {
+        "sellIn": -14,
+        "quality": 0
+      },
+      {
+        "sellIn": -15,
+        "quality": 0
+      },
+      {
+        "sellIn": -16,
+        "quality": 0
+      },
+      {
+        "sellIn": -17,
+        "quality": 0
+      },
+      {
+        "sellIn": -18,
+        "quality": 0
+      },
+      {
+        "sellIn": -19,
+        "quality": 0
+      },
+      {
+        "sellIn": -20,
+        "quality": 0
+      },
+      {
+        "sellIn": -21,
+        "quality": 0
+      },
+      {
+        "sellIn": -22,
+        "quality": 0
+      },
+      {
+        "sellIn": -23,
+        "quality": 0
+      },
+      {
+        "sellIn": -24,
+        "quality": 0
+      },
+      {
+        "sellIn": -25,
+        "quality": 0
+      },
+      {
+        "sellIn": -26,
+        "quality": 0
+      },
+      {
+        "sellIn": -27,
+        "quality": 0
+      },
+      {
+        "sellIn": -28,
+        "quality": 0
+      },
+      {
+        "sellIn": -29,
+        "quality": 0
+      },
+      {
+        "sellIn": -30,
+        "quality": 0
+      },
+      {
+        "sellIn": -31,
+        "quality": 0
+      },
+      {
+        "sellIn": -32,
+        "quality": 0
+      },
+      {
+        "sellIn": -33,
+        "quality": 0
+      },
+      {
+        "sellIn": -34,
+        "quality": 0
+      },
+      {
+        "sellIn": -35,
+        "quality": 0
+      },
+      {
+        "sellIn": -36,
+        "quality": 0
+      },
+      {
+        "sellIn": -37,
+        "quality": 0
+      },
+      {
+        "sellIn": -38,
+        "quality": 0
+      },
+      {
+        "sellIn": -39,
+        "quality": 0
+      },
+      {
+        "sellIn": -40,
+        "quality": 0
+      },
+      {
+        "sellIn": -41,
+        "quality": 0
+      },
+      {
+        "sellIn": -42,
+        "quality": 0
+      },
+      {
+        "sellIn": -43,
+        "quality": 0
+      },
+      {
+        "sellIn": -44,
+        "quality": 0
+      },
+      {
+        "sellIn": -45,
+        "quality": 0
+      },
+      {
+        "sellIn": -46,
+        "quality": 0
+      },
+      {
+        "sellIn": -47,
+        "quality": 0
+      },
+      {
+        "sellIn": -48,
+        "quality": 0
+      },
+      {
+        "sellIn": -49,
+        "quality": 0
+      },
+      {
+        "sellIn": -50,
+        "quality": 0
+      },
+      {
+        "sellIn": -51,
+        "quality": 0
+      },
+      {
+        "sellIn": -52,
+        "quality": 0
+      },
+      {
+        "sellIn": -53,
+        "quality": 0
+      },
+      {
+        "sellIn": -54,
+        "quality": 0
+      },
+      {
+        "sellIn": -55,
+        "quality": 0
+      },
+      {
+        "sellIn": -56,
+        "quality": 0
+      },
+      {
+        "sellIn": -57,
+        "quality": 0
+      },
+      {
+        "sellIn": -58,
+        "quality": 0
+      },
+      {
+        "sellIn": -59,
+        "quality": 0
+      },
+      {
+        "sellIn": -60,
+        "quality": 0
+      },
+      {
+        "sellIn": -61,
+        "quality": 0
+      },
+      {
+        "sellIn": -62,
+        "quality": 0
+      },
+      {
+        "sellIn": -63,
+        "quality": 0
+      },
+      {
+        "sellIn": -64,
+        "quality": 0
+      },
+      {
+        "sellIn": -65,
+        "quality": 0
+      },
+      {
+        "sellIn": -66,
+        "quality": 0
+      },
+      {
+        "sellIn": -67,
+        "quality": 0
+      },
+      {
+        "sellIn": -68,
+        "quality": 0
+      },
+      {
+        "sellIn": -69,
+        "quality": 0
+      },
+      {
+        "sellIn": -70,
+        "quality": 0
+      },
+      {
+        "sellIn": -71,
+        "quality": 0
+      },
+      {
+        "sellIn": -72,
+        "quality": 0
+      },
+      {
+        "sellIn": -73,
+        "quality": 0
+      },
+      {
+        "sellIn": -74,
+        "quality": 0
+      },
+      {
+        "sellIn": -75,
+        "quality": 0
+      },
+      {
+        "sellIn": -76,
+        "quality": 0
+      },
+      {
+        "sellIn": -77,
+        "quality": 0
+      },
+      {
+        "sellIn": -78,
+        "quality": 0
+      },
+      {
+        "sellIn": -79,
+        "quality": 0
+      },
+      {
+        "sellIn": -80,
+        "quality": 0
+      },
+      {
+        "sellIn": -81,
+        "quality": 0
+      },
+      {
+        "sellIn": -82,
+        "quality": 0
+      },
+      {
+        "sellIn": -83,
+        "quality": 0
+      },
+      {
+        "sellIn": -84,
+        "quality": 0
+      }
+    ]
+  },
+  {
+    "properties": {
+      "sellIn": 10,
+      "quality": 49
+    },
+    "items": [
+      {
+        "sellIn": 10,
+        "quality": 49
+      },
+      {
+        "sellIn": 9,
+        "quality": 50
+      },
+      {
+        "sellIn": 8,
+        "quality": 50
+      },
+      {
+        "sellIn": 7,
+        "quality": 50
+      },
+      {
+        "sellIn": 6,
+        "quality": 50
+      },
+      {
+        "sellIn": 5,
+        "quality": 50
+      },
+      {
+        "sellIn": 4,
+        "quality": 50
+      },
+      {
+        "sellIn": 3,
+        "quality": 50
+      },
+      {
+        "sellIn": 2,
+        "quality": 50
+      },
+      {
+        "sellIn": 1,
+        "quality": 50
+      },
+      {
+        "sellIn": 0,
+        "quality": 50
+      },
+      {
+        "sellIn": -1,
+        "quality": 0
+      },
+      {
+        "sellIn": -2,
+        "quality": 0
+      },
+      {
+        "sellIn": -3,
+        "quality": 0
+      },
+      {
+        "sellIn": -4,
+        "quality": 0
+      },
+      {
+        "sellIn": -5,
+        "quality": 0
+      },
+      {
+        "sellIn": -6,
+        "quality": 0
+      },
+      {
+        "sellIn": -7,
+        "quality": 0
+      },
+      {
+        "sellIn": -8,
+        "quality": 0
+      },
+      {
+        "sellIn": -9,
+        "quality": 0
+      },
+      {
+        "sellIn": -10,
+        "quality": 0
+      },
+      {
+        "sellIn": -11,
+        "quality": 0
+      },
+      {
+        "sellIn": -12,
+        "quality": 0
+      },
+      {
+        "sellIn": -13,
+        "quality": 0
+      },
+      {
+        "sellIn": -14,
+        "quality": 0
+      },
+      {
+        "sellIn": -15,
+        "quality": 0
+      },
+      {
+        "sellIn": -16,
+        "quality": 0
+      },
+      {
+        "sellIn": -17,
+        "quality": 0
+      },
+      {
+        "sellIn": -18,
+        "quality": 0
+      },
+      {
+        "sellIn": -19,
+        "quality": 0
+      },
+      {
+        "sellIn": -20,
+        "quality": 0
+      },
+      {
+        "sellIn": -21,
+        "quality": 0
+      },
+      {
+        "sellIn": -22,
+        "quality": 0
+      },
+      {
+        "sellIn": -23,
+        "quality": 0
+      },
+      {
+        "sellIn": -24,
+        "quality": 0
+      },
+      {
+        "sellIn": -25,
+        "quality": 0
+      },
+      {
+        "sellIn": -26,
+        "quality": 0
+      },
+      {
+        "sellIn": -27,
+        "quality": 0
+      },
+      {
+        "sellIn": -28,
+        "quality": 0
+      },
+      {
+        "sellIn": -29,
+        "quality": 0
+      },
+      {
+        "sellIn": -30,
+        "quality": 0
+      },
+      {
+        "sellIn": -31,
+        "quality": 0
+      },
+      {
+        "sellIn": -32,
+        "quality": 0
+      },
+      {
+        "sellIn": -33,
+        "quality": 0
+      },
+      {
+        "sellIn": -34,
+        "quality": 0
+      },
+      {
+        "sellIn": -35,
+        "quality": 0
+      },
+      {
+        "sellIn": -36,
+        "quality": 0
+      },
+      {
+        "sellIn": -37,
+        "quality": 0
+      },
+      {
+        "sellIn": -38,
+        "quality": 0
+      },
+      {
+        "sellIn": -39,
+        "quality": 0
+      },
+      {
+        "sellIn": -40,
+        "quality": 0
+      },
+      {
+        "sellIn": -41,
+        "quality": 0
+      },
+      {
+        "sellIn": -42,
+        "quality": 0
+      },
+      {
+        "sellIn": -43,
+        "quality": 0
+      },
+      {
+        "sellIn": -44,
+        "quality": 0
+      },
+      {
+        "sellIn": -45,
+        "quality": 0
+      },
+      {
+        "sellIn": -46,
+        "quality": 0
+      },
+      {
+        "sellIn": -47,
+        "quality": 0
+      },
+      {
+        "sellIn": -48,
+        "quality": 0
+      },
+      {
+        "sellIn": -49,
+        "quality": 0
+      },
+      {
+        "sellIn": -50,
+        "quality": 0
+      },
+      {
+        "sellIn": -51,
+        "quality": 0
+      },
+      {
+        "sellIn": -52,
+        "quality": 0
+      },
+      {
+        "sellIn": -53,
+        "quality": 0
+      },
+      {
+        "sellIn": -54,
+        "quality": 0
+      },
+      {
+        "sellIn": -55,
+        "quality": 0
+      },
+      {
+        "sellIn": -56,
+        "quality": 0
+      },
+      {
+        "sellIn": -57,
+        "quality": 0
+      },
+      {
+        "sellIn": -58,
+        "quality": 0
+      },
+      {
+        "sellIn": -59,
+        "quality": 0
+      },
+      {
+        "sellIn": -60,
+        "quality": 0
+      },
+      {
+        "sellIn": -61,
+        "quality": 0
+      },
+      {
+        "sellIn": -62,
+        "quality": 0
+      },
+      {
+        "sellIn": -63,
+        "quality": 0
+      },
+      {
+        "sellIn": -64,
+        "quality": 0
+      },
+      {
+        "sellIn": -65,
+        "quality": 0
+      },
+      {
+        "sellIn": -66,
+        "quality": 0
+      },
+      {
+        "sellIn": -67,
+        "quality": 0
+      },
+      {
+        "sellIn": -68,
+        "quality": 0
+      },
+      {
+        "sellIn": -69,
+        "quality": 0
+      },
+      {
+        "sellIn": -70,
+        "quality": 0
+      },
+      {
+        "sellIn": -71,
+        "quality": 0
+      },
+      {
+        "sellIn": -72,
+        "quality": 0
+      },
+      {
+        "sellIn": -73,
+        "quality": 0
+      },
+      {
+        "sellIn": -74,
+        "quality": 0
+      },
+      {
+        "sellIn": -75,
+        "quality": 0
+      },
+      {
+        "sellIn": -76,
+        "quality": 0
+      },
+      {
+        "sellIn": -77,
+        "quality": 0
+      },
+      {
+        "sellIn": -78,
+        "quality": 0
+      },
+      {
+        "sellIn": -79,
+        "quality": 0
+      },
+      {
+        "sellIn": -80,
+        "quality": 0
+      },
+      {
+        "sellIn": -81,
+        "quality": 0
+      },
+      {
+        "sellIn": -82,
+        "quality": 0
+      },
+      {
+        "sellIn": -83,
+        "quality": 0
+      },
+      {
+        "sellIn": -84,
+        "quality": 0
+      },
+      {
+        "sellIn": -85,
+        "quality": 0
+      },
+      {
+        "sellIn": -86,
+        "quality": 0
+      },
+      {
+        "sellIn": -87,
+        "quality": 0
+      },
+      {
+        "sellIn": -88,
+        "quality": 0
+      },
+      {
+        "sellIn": -89,
+        "quality": 0
+      }
+    ]
+  },
+  {
+    "properties": {
+      "sellIn": 5,
+      "quality": 49
+    },
+    "items": [
+      {
+        "sellIn": 5,
+        "quality": 49
+      },
+      {
+        "sellIn": 4,
+        "quality": 50
+      },
+      {
+        "sellIn": 3,
+        "quality": 50
+      },
+      {
+        "sellIn": 2,
+        "quality": 50
+      },
+      {
+        "sellIn": 1,
+        "quality": 50
+      },
+      {
+        "sellIn": 0,
+        "quality": 50
+      },
+      {
+        "sellIn": -1,
+        "quality": 0
+      },
+      {
+        "sellIn": -2,
+        "quality": 0
+      },
+      {
+        "sellIn": -3,
+        "quality": 0
+      },
+      {
+        "sellIn": -4,
+        "quality": 0
+      },
+      {
+        "sellIn": -5,
+        "quality": 0
+      },
+      {
+        "sellIn": -6,
+        "quality": 0
+      },
+      {
+        "sellIn": -7,
+        "quality": 0
+      },
+      {
+        "sellIn": -8,
+        "quality": 0
+      },
+      {
+        "sellIn": -9,
+        "quality": 0
+      },
+      {
+        "sellIn": -10,
+        "quality": 0
+      },
+      {
+        "sellIn": -11,
+        "quality": 0
+      },
+      {
+        "sellIn": -12,
+        "quality": 0
+      },
+      {
+        "sellIn": -13,
+        "quality": 0
+      },
+      {
+        "sellIn": -14,
+        "quality": 0
+      },
+      {
+        "sellIn": -15,
+        "quality": 0
+      },
+      {
+        "sellIn": -16,
+        "quality": 0
+      },
+      {
+        "sellIn": -17,
+        "quality": 0
+      },
+      {
+        "sellIn": -18,
+        "quality": 0
+      },
+      {
+        "sellIn": -19,
+        "quality": 0
+      },
+      {
+        "sellIn": -20,
+        "quality": 0
+      },
+      {
+        "sellIn": -21,
+        "quality": 0
+      },
+      {
+        "sellIn": -22,
+        "quality": 0
+      },
+      {
+        "sellIn": -23,
+        "quality": 0
+      },
+      {
+        "sellIn": -24,
+        "quality": 0
+      },
+      {
+        "sellIn": -25,
+        "quality": 0
+      },
+      {
+        "sellIn": -26,
+        "quality": 0
+      },
+      {
+        "sellIn": -27,
+        "quality": 0
+      },
+      {
+        "sellIn": -28,
+        "quality": 0
+      },
+      {
+        "sellIn": -29,
+        "quality": 0
+      },
+      {
+        "sellIn": -30,
+        "quality": 0
+      },
+      {
+        "sellIn": -31,
+        "quality": 0
+      },
+      {
+        "sellIn": -32,
+        "quality": 0
+      },
+      {
+        "sellIn": -33,
+        "quality": 0
+      },
+      {
+        "sellIn": -34,
+        "quality": 0
+      },
+      {
+        "sellIn": -35,
+        "quality": 0
+      },
+      {
+        "sellIn": -36,
+        "quality": 0
+      },
+      {
+        "sellIn": -37,
+        "quality": 0
+      },
+      {
+        "sellIn": -38,
+        "quality": 0
+      },
+      {
+        "sellIn": -39,
+        "quality": 0
+      },
+      {
+        "sellIn": -40,
+        "quality": 0
+      },
+      {
+        "sellIn": -41,
+        "quality": 0
+      },
+      {
+        "sellIn": -42,
+        "quality": 0
+      },
+      {
+        "sellIn": -43,
+        "quality": 0
+      },
+      {
+        "sellIn": -44,
+        "quality": 0
+      },
+      {
+        "sellIn": -45,
+        "quality": 0
+      },
+      {
+        "sellIn": -46,
+        "quality": 0
+      },
+      {
+        "sellIn": -47,
+        "quality": 0
+      },
+      {
+        "sellIn": -48,
+        "quality": 0
+      },
+      {
+        "sellIn": -49,
+        "quality": 0
+      },
+      {
+        "sellIn": -50,
+        "quality": 0
+      },
+      {
+        "sellIn": -51,
+        "quality": 0
+      },
+      {
+        "sellIn": -52,
+        "quality": 0
+      },
+      {
+        "sellIn": -53,
+        "quality": 0
+      },
+      {
+        "sellIn": -54,
+        "quality": 0
+      },
+      {
+        "sellIn": -55,
+        "quality": 0
+      },
+      {
+        "sellIn": -56,
+        "quality": 0
+      },
+      {
+        "sellIn": -57,
+        "quality": 0
+      },
+      {
+        "sellIn": -58,
+        "quality": 0
+      },
+      {
+        "sellIn": -59,
+        "quality": 0
+      },
+      {
+        "sellIn": -60,
+        "quality": 0
+      },
+      {
+        "sellIn": -61,
+        "quality": 0
+      },
+      {
+        "sellIn": -62,
+        "quality": 0
+      },
+      {
+        "sellIn": -63,
+        "quality": 0
+      },
+      {
+        "sellIn": -64,
+        "quality": 0
+      },
+      {
+        "sellIn": -65,
+        "quality": 0
+      },
+      {
+        "sellIn": -66,
+        "quality": 0
+      },
+      {
+        "sellIn": -67,
+        "quality": 0
+      },
+      {
+        "sellIn": -68,
+        "quality": 0
+      },
+      {
+        "sellIn": -69,
+        "quality": 0
+      },
+      {
+        "sellIn": -70,
+        "quality": 0
+      },
+      {
+        "sellIn": -71,
+        "quality": 0
+      },
+      {
+        "sellIn": -72,
+        "quality": 0
+      },
+      {
+        "sellIn": -73,
+        "quality": 0
+      },
+      {
+        "sellIn": -74,
+        "quality": 0
+      },
+      {
+        "sellIn": -75,
+        "quality": 0
+      },
+      {
+        "sellIn": -76,
+        "quality": 0
+      },
+      {
+        "sellIn": -77,
+        "quality": 0
+      },
+      {
+        "sellIn": -78,
+        "quality": 0
+      },
+      {
+        "sellIn": -79,
+        "quality": 0
+      },
+      {
+        "sellIn": -80,
+        "quality": 0
+      },
+      {
+        "sellIn": -81,
+        "quality": 0
+      },
+      {
+        "sellIn": -82,
+        "quality": 0
+      },
+      {
+        "sellIn": -83,
+        "quality": 0
+      },
+      {
+        "sellIn": -84,
+        "quality": 0
+      },
+      {
+        "sellIn": -85,
+        "quality": 0
+      },
+      {
+        "sellIn": -86,
+        "quality": 0
+      },
+      {
+        "sellIn": -87,
+        "quality": 0
+      },
+      {
+        "sellIn": -88,
+        "quality": 0
+      },
+      {
+        "sellIn": -89,
+        "quality": 0
+      },
+      {
+        "sellIn": -90,
+        "quality": 0
+      },
+      {
+        "sellIn": -91,
+        "quality": 0
+      },
+      {
+        "sellIn": -92,
+        "quality": 0
+      },
+      {
+        "sellIn": -93,
+        "quality": 0
+      },
+      {
+        "sellIn": -94,
+        "quality": 0
+      }
+    ]
+  }
+]

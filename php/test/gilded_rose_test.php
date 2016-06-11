@@ -66,4 +66,31 @@ class GildedRoseTest extends PHPUnit_Framework_TestCase {
         }
     }
 
+    /**
+     * Testing of Backstage passes to a TAFKAL80ETC concert item.
+     */
+    function testTAFKAL80ETCConcertBackstagePasses()
+    {
+        $fixturesFilename = file_get_contents(__DIR__ . '/' . $this->fixturesFolder . '/backstage-passes.json');
+        $fixtures = json_decode($fixturesFilename);
+
+        foreach($fixtures as $id=>$fixture) {
+            $items = [
+                new Item("Backstage passes to a TAFKAL80ETC concert", $fixture->properties->sellIn, $fixture->properties->quality)
+            ];
+            $gildedRose = new GildedRose($items);
+
+            for($i = 0; $i<count($fixture->items); $i++) {
+                $this->assertEquals(
+                    $fixture->items[$i]->sellIn,
+                    $items[0]->sellIn
+                );
+                $this->assertEquals(
+                    $fixture->items[$i]->quality,
+                    $items[0]->quality
+                );
+                $gildedRose->updateQuality();
+            }
+        }
+    }
 }
