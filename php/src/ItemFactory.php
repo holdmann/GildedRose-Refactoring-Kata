@@ -8,7 +8,7 @@
  */
 class ItemFactory {
 
-    protected static $_defaultItemClass = 'Default';
+    protected static $_defaultItemClass = 'DefaultItem';
 
     protected static $_mappingClasses = [
         'Aged Brie' => 'AgedBrie',

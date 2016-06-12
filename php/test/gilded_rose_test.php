@@ -7,6 +7,7 @@ require_once 'items/AgedBrie.php';
 require_once 'items/Sulfuras.php';
 require_once 'items/BackstagePass.php';
 require_once 'items/ConjuredManaCake.php';
+require_once 'items/DefaultItem.php';
 
 class GildedRoseTest extends PHPUnit_Framework_TestCase {
 
