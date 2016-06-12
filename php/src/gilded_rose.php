@@ -13,29 +13,11 @@ class GildedRose {
             switch ($item->name) {
                 case 'Aged Brie':
                 case 'Sulfuras, Hand of Ragnaros':
+                case 'Backstage passes to a TAFKAL80ETC concert':
 
                     $itemInstance = ItemFactory::model($item);
                     $itemInstance->update();
 
-                    break;
-
-                case 'Backstage passes to a TAFKAL80ETC concert':
-                    $qualityIncreaseBy = 1;
-
-                    if ($item->sellIn <= 10)
-                        $qualityIncreaseBy = 2;
-                    if ($item->sellIn <= 5)
-                        $qualityIncreaseBy = 3;
-
-                    $item->sellIn -= 1;
-
-                    $item->quality += $qualityIncreaseBy;
-
-                    if ($item->sellIn < 0)
-                        $item->quality = 0;
-
-                    if ($item->quality > 50)
-                        $item->quality = 50;
                     break;
 
                 case 'Conjured Mana Cake':
