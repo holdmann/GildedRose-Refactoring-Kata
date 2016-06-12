@@ -4,6 +4,7 @@ require_once 'gilded_rose.php';
 require_once 'Item.php';
 require_once 'ItemFactory.php';
 require_once 'items/AgedBrie.php';
+require_once 'items/Sulfuras.php';
 
 class GildedRoseTest extends PHPUnit_Framework_TestCase {
 

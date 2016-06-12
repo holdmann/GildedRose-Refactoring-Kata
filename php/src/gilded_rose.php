@@ -12,29 +12,11 @@ class GildedRose {
         foreach ($this->items as $item) {
             switch ($item->name) {
                 case 'Aged Brie':
+                case 'Sulfuras, Hand of Ragnaros':
 
                     $itemInstance = ItemFactory::model($item);
                     $itemInstance->update();
-                    
-                    /*
-                    $qualityIncreaseBy = $item->sellIn > 0 ? 1 : 2;
 
-                    $item->sellIn -= 1;
-
-                    if ($item->sellIn < 0)
-                        $qualityIncreaseBy = 2;
-
-                    $item->quality += $qualityIncreaseBy;
-
-                    if ($item->quality > 50)
-                        $item->quality = 50;
-
-                    */
-
-                    break;
-
-                case 'Sulfuras, Hand of Ragnaros':
-                    // legendary item, do nothing.
                     break;
 
                 case 'Backstage passes to a TAFKAL80ETC concert':

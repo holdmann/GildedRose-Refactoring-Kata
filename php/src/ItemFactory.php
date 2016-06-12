@@ -12,7 +12,7 @@ class ItemFactory {
 
     protected static $_mappingClasses = [
         'Aged Brie' => 'AgedBrie',
-        'Sulfuras, Hand of Ragnaros' => 'Sulfaras',
+        'Sulfuras, Hand of Ragnaros' => 'Sulfuras',
         'Backstage passes to a TAFKAL80ETC concert' => 'BackstagePass',
         'Conjured Mana Cake' => 'ConjuredManaCake',
     ];
