@@ -4,6 +4,8 @@ require_once 'gilded_rose.php';
 require_once 'Item.php';
 require_once 'common/ItemFactory.php';
 require_once 'common/BaseItem.php';
+require_once 'exception/GildedRoseException.php';
+require_once 'exception/ItemQualityOutOfRangeException.php';
 require_once 'items/AgedBrie.php';
 require_once 'items/Sulfuras.php';
 require_once 'items/BackstagePass.php';
@@ -156,5 +158,39 @@ class GildedRoseTest extends PHPUnit_Framework_TestCase {
                 $gildedRose->updateQuality();
             }
         }
+    }
+
+    /**
+     * Test base item out of range exception.
+     */
+    function testBaseItemExceptions()
+    {
+        $items = [
+            new Item("Conjured Mana Cake", 5, -1),
+            new Item("Conjured Mana Cake", 5, 51)
+        ];
+        $gildedRose = new GildedRose($items);
+
+        try{
+            $gildedRose->updateQuality();
+            $this->fail("Expected exception ItemQualityOutOfRangeException not thrown");
+        } catch(ItemQualityOutOfRangeException $e) {}
+    }
+
+    /**
+     * Test sulfaras out of range exception.
+     */
+    function testSulfarasExceptions()
+    {
+        $items = [
+            new Item("Sulfuras, Hand of Ragnaros", 5, 79),
+            new Item("Sulfuras, Hand of Ragnaros", 5, 81)
+        ];
+        $gildedRose = new GildedRose($items);
+
+        try{
+            $gildedRose->updateQuality();
+            $this->fail("Expected exception ItemQualityOutOfRangeException not thrown");
+        } catch(ItemQualityOutOfRangeException $e) {}
     }
 }

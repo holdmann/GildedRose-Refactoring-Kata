@@ -12,6 +12,12 @@ abstract class BaseItem
 
     public function __construct(\Item $item)
     {
+        if ($item->quality < 0)
+            throw new ItemQualityOutOfRangeException("Quality of item can not be negative");
+
+        if ($item->quality > 50)
+            throw new ItemQualityOutOfRangeException("Quality of item can not be more that 50");
+
         $this->_item = $item;
     }
 
