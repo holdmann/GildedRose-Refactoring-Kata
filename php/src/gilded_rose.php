@@ -14,21 +14,10 @@ class GildedRose {
                 case 'Aged Brie':
                 case 'Sulfuras, Hand of Ragnaros':
                 case 'Backstage passes to a TAFKAL80ETC concert':
+                case 'Conjured Mana Cake':
 
                     $itemInstance = ItemFactory::model($item);
                     $itemInstance->update();
-
-                    break;
-
-                case 'Conjured Mana Cake':
-                    $qualityDecreaseBy = 2;
-
-                    $item->sellIn -= 1;
-
-                    $item->quality -= $qualityDecreaseBy;
-
-                    if ($item->quality < 0)
-                        $item->quality = 0;
 
                     break;
 
