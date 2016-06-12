@@ -12,6 +12,11 @@ class GildedRose {
         foreach ($this->items as $item) {
             switch ($item->name) {
                 case 'Aged Brie':
+
+                    $itemInstance = ItemFactory::model($item);
+                    $itemInstance->update();
+                    
+                    /*
                     $qualityIncreaseBy = $item->sellIn > 0 ? 1 : 2;
 
                     $item->sellIn -= 1;
@@ -23,6 +28,8 @@ class GildedRose {
 
                     if ($item->quality > 50)
                         $item->quality = 50;
+
+                    */
 
                     break;
 
