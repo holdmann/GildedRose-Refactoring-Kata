@@ -10,14 +10,8 @@ class GildedRose {
 
     function updateQuality() {
         foreach ($this->items as $item) {
-            switch ($item->name) {
-                default:
-
-                    $itemInstance = ItemFactory::model($item);
-                    $itemInstance->update();
-
-                    break;
-            }
+            $itemInstance = ItemFactory::model($item);
+            $itemInstance->update();
         }
     }
 }
