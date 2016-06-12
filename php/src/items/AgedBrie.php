@@ -6,14 +6,7 @@
  * Date: 12.06.16
  * Time: 17:58
  */
-class AgedBrie {
-    
-    protected $_item = null;
-    
-    public function __construct(\Item $item)
-    {
-        $this->_item = $item;
-    }
+class AgedBrie extends BaseItem {
     
     protected function updateSellIn()
     {
@@ -31,12 +24,6 @@ class AgedBrie {
 
         if ($this->_item->quality > 50)
             $this->_item->quality = 50;
-    }
-
-    public function update()
-    {
-        $this->updateQuality();
-        $this->updateSellIn();
     }
 }
 

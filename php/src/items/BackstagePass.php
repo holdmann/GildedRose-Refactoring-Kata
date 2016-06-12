@@ -6,15 +6,8 @@
  * Date: 12.06.16
  * Time: 18:23
  */
-class BackstagePass
-{
-    protected $_item = null;
-
-    public function __construct(\Item $item)
-    {
-        $this->_item = $item;
-    }
-
+class BackstagePass extends BaseItem {
+    
     protected function updateSellIn()
     {
         $this->_item->sellIn -= 1;
@@ -36,11 +29,5 @@ class BackstagePass
         
         if ($this->_item->quality > 50)
             $this->_item->quality = 50;
-    }
-
-    public function update()
-    {
-        $this->updateQuality();
-        $this->updateSellIn();
     }
 }

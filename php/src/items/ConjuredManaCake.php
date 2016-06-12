@@ -6,15 +6,8 @@
  * Date: 12.06.16
  * Time: 18:43
  */
-class ConjuredManaCake
-{
-    protected $_item = null;
-
-    public function __construct(\Item $item)
-    {
-        $this->_item = $item;
-    }
-
+class ConjuredManaCake extends BaseItem {
+    
     protected function updateSellIn()
     {
         $this->_item->sellIn -= 1;
@@ -28,11 +21,5 @@ class ConjuredManaCake
 
         if ($this->_item->quality < 0)
             $this->_item->quality = 0;
-    }
-
-    public function update()
-    {
-        $this->updateQuality();
-        $this->updateSellIn();
     }
 }

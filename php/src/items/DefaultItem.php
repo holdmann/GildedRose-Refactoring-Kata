@@ -6,15 +6,8 @@
  * Date: 12.06.16
  * Time: 18:46
  */
-class DefaultItem
-{
-    protected $_item = null;
-
-    public function __construct(\Item $item)
-    {
-        $this->_item = $item;
-    }
-
+class DefaultItem extends BaseItem {
+    
     protected function updateSellIn()
     {
         $this->_item->sellIn -= 1;
@@ -31,11 +24,5 @@ class DefaultItem
 
         if ($this->_item->quality < 0)
             $this->_item->quality = 0;
-    }
-
-    public function update()
-    {
-        $this->updateQuality();
-        $this->updateSellIn();
     }
 }
