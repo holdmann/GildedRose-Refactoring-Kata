@@ -7,7 +7,11 @@
  * Time: 18:23
  */
 class BackstagePass extends BaseItem {
-    
+
+    /**
+     * Decrease sellIn by one point every day.
+     * If sellIn is less than zero set quality property to zero. 
+     */
     protected function updateSellIn()
     {
         $this->_item->sellIn -= 1;
@@ -16,6 +20,9 @@ class BackstagePass extends BaseItem {
             $this->_item->quality = 0;
     }
 
+    /**
+     * Increase quality by one, two or three depending on sellIn value.
+     */
     protected function updateQuality()
     {
         $qualityIncreaseBy = 1;

@@ -13,12 +13,24 @@ require_once 'items/DefaultItem.php';
 
 class GildedRose {
 
+    /**
+     * @var Item[] Property used for storing $items passed in constructor.  
+     */
     private $items;
 
+    /**
+     * GildedRose constructor.
+     * Set items and store them in $items property.
+     * 
+     * @param $items Item[] Array of items. 
+     */
     function __construct($items) {
         $this->items = $items;
     }
 
+    /**
+     * Iterate over all items and update sellIn & quality properties.
+     */
     function updateQuality() {
         foreach ($this->items as $item) {
             $itemInstance = ItemFactory::model($item);

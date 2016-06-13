@@ -7,12 +7,18 @@
  * Time: 18:46
  */
 class DefaultItem extends BaseItem {
-    
+
+    /**
+     * Decrease sellIn by one point every day.
+     */
     protected function updateSellIn()
     {
         $this->_item->sellIn -= 1;
     }
 
+    /**
+     * Decrease quality by one or two whether sellIn positive or not.
+     */
     protected function updateQuality()
     {
         $qualityDecreaseBy = $this->_item->sellIn > 0 ? 1 : 2;

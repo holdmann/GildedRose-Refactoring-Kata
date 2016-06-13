@@ -8,5 +8,4 @@
  */
 class ItemQualityOutOfRangeException extends GildedRoseException
 {
-
 }
